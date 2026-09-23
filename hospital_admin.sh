@@ -16,3 +16,16 @@ initialize_system() {
  
 # ---------- Member 2: The Security Lead ----------
 # member 2 should work on the secure_data function below
+secure_data() {
+chmod 700 active_logs
+ls -l active_logs
+
+}
+
+
+initialize_system
+secure_data
+
+echo "System Environment Secured"
+date
+

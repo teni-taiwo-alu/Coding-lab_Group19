@@ -23,6 +23,7 @@ ls -l active_logs
 }
 
 #------------ Member 3: Orchestrator -----------------
+# member 3 simply calls the functions
 initialize_system
 secure_data
 
